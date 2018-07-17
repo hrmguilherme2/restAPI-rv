@@ -135,6 +135,6 @@ Syntax : ` http://localhost:3000/widget?name=GUILHERME&color=BLACK&price=10&inve
 
 
 
-]]></content>
+</content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
