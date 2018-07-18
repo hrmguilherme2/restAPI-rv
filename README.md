@@ -69,6 +69,7 @@ CREATE TABLE `redventures`.`credentials` (
   `id` INT NOT NULL,
   `username` VARCHAR(45) NULL,
   `password` VARCHAR(45) NULL,
+  `name` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
   ```
 
