@@ -13,8 +13,6 @@ import (
 
 var tokIsValid = false
 
-// Struct que representa usuario
-
 var signingKey = []byte("signing-key")
 
 func signingKeyFn(*jwt.Token) (interface{}, error) {
@@ -125,7 +123,7 @@ func main() {
 		claimsString := fmt.Sprintf("claims: %v", claims)
 
 		log.Println(claimsString)
-
+		//Se o token for válido retorno é true
 		c.JSON(http.StatusOK, gin.H{
 			"log": "true",
 		})
