@@ -109,7 +109,9 @@ Start PostMan Software and use it to get the responses.<br>
 ![Alt Text](https://media.giphy.com/media/kv5YRt0L0livTaXkiF/giphy.gif)
 
 
-After the token validated you are enabled to access the full restAPI.
+After the token is validated you are enabled to access the full restAPI, if you don't validate the token you are not authorized to access the restAPI and you will receive the error bellow.
+
+![Alt Text](https://media.giphy.com/media/1na6AKviEPavmW3axa/giphy.gif)
 
 
 
@@ -126,11 +128,11 @@ GET http://localhost:3000/widgets/:id<br>
 ![Alt Text](https://media.giphy.com/media/42vdMODrsbMOWjhTsj/giphy.gif)
 
 POST /widgets for creating new widgets http://localhost:3000/widgets<br>
-Syntax: `http://localhost:3000/widget?id={id}&name=Guilherme&color=Azul&price=1&inventory=1002&melts=true`
+Syntax: `http://localhost:3000/widgets?id={id}&name=Guilherme&color=Azul&price=1&inventory=1002&melts=true`
 ![Alt Text](https://media.giphy.com/media/2Yc392e5BI5hV5ZYoE/giphy.gif)
 
 PUT /widgets/:id for updating existing http://localhost:3000/widgets/:id<br>
-Syntax : ` http://localhost:3000/widget?name=GUILHERME&color=BLACK&price=10&inventory=1001&melts=true&id={id to updated}`
+Syntax : ` http://localhost:3000/widgets?name=GUILHERME&color=BLACK&price=10&inventory=1001&melts=true&id={id to updated}`
 ![Alt Text](https://media.giphy.com/media/bqC3eDPwvpz0OI3nGL/giphy.gif)
 
 
