@@ -17,7 +17,8 @@ Step 1:
 	"github.com/gin-gonic/gin"
 	"github.com/go-sql-driver/mysql"
 ```
-Go to terminal and get those frameworks
+
+After you finished the installation about Golang, go to your project folder and open the terminal and get those frameworks
 1. `go get github.com/dgrijalva/jwt-go`
 2. `go get github.com/gin-gonic/gin`
 3. `go get github.com/go-sql-driver/mysql`
