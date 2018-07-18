@@ -5,7 +5,6 @@ REST API with GO
 
 
 ## Installation
-
 Step 1:
 - Install Golang https://golang.org/dl/
 - Dependencies
